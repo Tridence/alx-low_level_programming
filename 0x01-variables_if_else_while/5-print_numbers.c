@@ -1,18 +1,25 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0.
- *
- * Return: Always 0.
+ *main - this is where the program start running
+ *Return:returns zero if error and non zero if no errors
  */
+
 int main(void)
 {
-  int num;
 
-  for (num = 0; num < 10; num++)
-    printf("%d", num);
+	int num;
 
-  printf("\n");
+num = 0;
 
-  return (0);
+while (num < 10)
+{
+	printf("%d", num);
+	num++;
+}
+	putchar('\n');
+
+	return (0);
 }

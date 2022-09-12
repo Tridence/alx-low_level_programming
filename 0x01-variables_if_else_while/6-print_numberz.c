@@ -1,19 +1,25 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0,
- *        only using putchar and without char variables.
- *
- * Return: Always 0.
+ *main - this is where the program start running
+ *Return:returns zero if error and non zero if no errors
  */
+
 int main(void)
 {
-  int num;
 
-  for (num = 0; num < 10; num++)
-    putchar((num % 10) + '0');
+int num;
 
-  putchar('\n');
+num = 0;
 
-  return (0);
+while (num < 10)
+{
+	putchar(num + '0');
+	num++;
+}
+	putchar('\n');
+
+	return (0);
 }
