@@ -5,7 +5,9 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
+
 {
   char letter;
 
@@ -15,4 +17,5 @@ int main(void)
   putchar('\n');
 
   return (0);
+  
 }
