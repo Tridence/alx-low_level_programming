@@ -1,19 +1,25 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet in lowercase.
- *
- * Return: Always 0.
+ *main - this is where the program start running
+ *Return:returns zero if error and non zero if no errors
  */
 
 int main(void)
-
 {
-  char letter;
-  for (letter = 'a'; letter <= 'z'; letter++)
-  putchar(letter);
-  putchar('\n');
 
- return (0);
-  
+	int alphabet;
+
+	alphabet = 'a';
+
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
+	putchar('\n');
+
+	return (0);
 }
