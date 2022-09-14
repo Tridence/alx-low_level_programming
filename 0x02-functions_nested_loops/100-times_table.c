@@ -6,6 +6,7 @@
  *
  * return: Always 0
  */
+ 
 void print_times_table(int n)
 {
 	int num, m, p;

@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print_sign - prints the sign of a number
  * @n: the only argument of the function
  *
  * Return: Always 0
  */
+ 
 int print_sign(int n)
 {
 	if (n > 0)

@@ -5,6 +5,7 @@
  *
  * return: Always 0
  */
+ 
 void times_table(void)
 {
 	int num, mult, prod;
