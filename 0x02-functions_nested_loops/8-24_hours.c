@@ -6,7 +6,6 @@
  *
  * return: Always 0
  */
- 
 void jack_bauer(void)
 {
 	int hours = 0;
