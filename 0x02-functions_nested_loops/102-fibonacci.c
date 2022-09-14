@@ -7,7 +7,6 @@
  * printf: sends formatted output to screen
  * Return: Always 0
  */
- 
 int main(void)
 {
 	int count;
