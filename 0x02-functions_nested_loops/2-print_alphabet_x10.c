@@ -6,7 +6,6 @@
  * _putchar: sends formatted output to screen
  * return: Always 0
  */
- 
 void print_alphabet_x10(void)
 {
 	char c, i;
