@@ -7,6 +7,7 @@
  *
  * Return: 1 if prime, 0 if not
  */
+
 int prime_check(int i, int j)
 {
 	if (j < 2 || j % i == 0)
